@@ -5,3 +5,13 @@
 회전은 근육을 수축시키고 이는 몸의 구부러짐이 나타남  
 이러한 것들을 곡률(curvature)를 이용해서 계산이 가능하지 않을까?
 더 나아가서 곡률의 시작점이 어디인지 파악을 할 수 있다면 이를 이용해서 주먹을 피할 수 있을 것 같음 
+
+
+# 구조
+
+![](imgs/overview.png)
+
+1. 펀치에 대한 동영상 데이터 수집
+2. 각 프레임 마다 pose estmation을 통해서 3d object로 변환
+3. curvature의 계산량을 줄이기 위해서 convolution을 진행
+4. 3d object에 대한 curvature 계산 및 시각화
