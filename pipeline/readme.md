@@ -3,11 +3,11 @@
 mesh 데이터를 생성 및 시각화 까지 한번에 실행하는 코드
 
 ### install
-root
-├── pipeline.py
-├── MotionBERT
-├── AlphaPose
-├── utils
+root  
+├── pipeline.py  
+├── MotionBERT  
+├── AlphaPose  
+├── utils  
 
 다음과 같이 경로를 구성함
 
