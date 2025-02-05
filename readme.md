@@ -15,3 +15,7 @@
 2. 각 프레임 마다 pose estmation을 통해서 3d object로 변환
 3. curvature의 계산량을 줄이기 위해서 convolution을 진행
 4. 3d object에 대한 curvature 계산 및 시각화
+
+### goal
+
+실제로 서비스화를 통해서 수익을 내보자
